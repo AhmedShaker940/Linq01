@@ -37,6 +37,12 @@ namespace Assignment01LINQ
             //    Console.WriteLine(p);
 
             #endregion
+            #region Question05
+            //. Get all products that are in stock (UnitsInStock > 0) and belong to the "Condiments" category.
+            //var condiments = Source.ProductList.Where(p => p.UnitsInStock > 0 && p.Category == "Spices & Condiments");
+            //foreach (var p in condiments)
+            //    Console.WriteLine(p);
+            #endregion
 
         }
     }
