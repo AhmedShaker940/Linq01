@@ -115,6 +115,20 @@ namespace Assignment01LINQ
 
 
             #endregion
+            #region Question12
+            //Sort first by-word length and then by a
+            //case -insensitive sort of the words in an array.
+
+            //string[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+            //var sortedWords = Arr.OrderBy(w => w.Length)
+            //                     .ThenBy(w => w, StringComparer.OrdinalIgnoreCase);
+            //foreach (var w in sortedWords)
+            //    Console.WriteLine(w);
+
+            // ChatGpt Used in StringComparer
+
+
+            #endregion
         }
     }
 }
