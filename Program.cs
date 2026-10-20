@@ -43,6 +43,29 @@ namespace Assignment01LINQ
             //foreach (var p in condiments)
             //    Console.WriteLine(p);
             #endregion
+            #region Question06
+
+            /*
+             * Create a new anonymous type with three properties:
+             * ● Name → the product name
+            ● Price → the unit price
+            ● StockStatus → a string: "Available" if UnitsInStock > 0,
+                otherwise "Out of Stock"
+            ● Print the result.
+            */
+
+            //var Anonymous = Source.ProductList.Select(p => new
+            //{
+            //    Name = p.ProductName,
+            //    Price = p.UnitPrice,
+            //    StockStatus = p.UnitsInStock > 0 ? "Available" : "Out of Stock"
+            //});
+            //foreach (var a in Anonymous)
+            //    Console.WriteLine(a.Name , a.Price , a.StockStatus);
+
+
+
+            #endregion
 
         }
     }
