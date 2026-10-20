@@ -1,6 +1,7 @@
 ﻿using LINQ.DataSources;
 using LINQ.Models;
 using System.Drawing;
+using System.Numerics;
 
 namespace Assignment01LINQ
 {
@@ -91,6 +92,19 @@ namespace Assignment01LINQ
             //                                  .OrderByDescending(p => p.UnitsInStock);
             //foreach (var p in beverages)
             //    Console.WriteLine($"{p.ProductName} - {p.UnitsInStock}");
+
+            #endregion
+            #region Question10
+            // Using QUERY SYNTAX with a compound from clause, list
+            //all orders placed in 1997 or later showing CustomerID and
+            //OrderDate.
+
+            //var orders = Source.CustomerList
+            //                   .SelectMany(c => c.Orders, (c, o) => new { c.CustomerID, o.OrderDate })
+            //                   .Where(x => x.OrderDate.Year >= 1997);
+
+            //foreach (var o in orders)
+            //    Console.WriteLine($"{o.CustomerID} - {o.OrderDate}");
 
             #endregion
 
