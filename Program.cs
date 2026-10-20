@@ -107,7 +107,14 @@ namespace Assignment01LINQ
             //    Console.WriteLine($"{o.CustomerID} - {o.OrderDate}");
 
             #endregion
+            #region Question11
+            // Show position number alongside ProductName
+            //var withPos = Source.ProductList.Select((p, i) => new { Position = i + 1, p.ProductName });
+            //foreach (var x in withPos)
+            //    Console.WriteLine($"{x.Position}: {x.ProductName}");
 
+
+            #endregion
         }
     }
 }
