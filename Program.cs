@@ -30,6 +30,13 @@ namespace Assignment01LINQ
 
 
             #endregion
+            #region Question04
+            //Get all products where UnitPrice is between 10 and 30
+            //var between = Source.ProductList.Where(p => p.UnitPrice >= 10 && p.UnitPrice <= 30);
+            //foreach (var p in between)
+            //    Console.WriteLine(p);
+
+            #endregion
 
         }
     }
