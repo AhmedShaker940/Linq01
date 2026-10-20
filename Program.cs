@@ -1,5 +1,6 @@
 ﻿using LINQ.DataSources;
 using LINQ.Models;
+using System.Drawing;
 
 namespace Assignment01LINQ
 {
@@ -82,6 +83,15 @@ namespace Assignment01LINQ
             //var sorted = Source.ProductList.OrderBy(p => p.Category).ThenByDescending(p => p.UnitPrice);
             //foreach (var p in sorted)
             //    Console.WriteLine($"{p.Category} - {p.ProductName} - {p.UnitPrice}");
+            #endregion
+            #region Question09
+            //Get all products from the "Beverages" category, sorted by
+            //UnitsInStock descending. Print name and stock.
+            //var beverages = Source.ProductList.Where(p => p.Category == "Beverages")
+            //                                  .OrderByDescending(p => p.UnitsInStock);
+            //foreach (var p in beverages)
+            //    Console.WriteLine($"{p.ProductName} - {p.UnitsInStock}");
+
             #endregion
 
         }
