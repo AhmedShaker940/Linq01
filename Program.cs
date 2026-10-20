@@ -12,7 +12,7 @@ namespace Assignment01LINQ
             //Get all products from the "Seafood" category. Print each product's name and price.
             //var seafood = Source.ProductList.Where(p => p.Category == "Seafood");
             //foreach (var p in seafood)
-            //    Console.WriteLine($"Product Name : {p.ProductName} , Unit Price : {p.UnitPrice}");
+            //    Console.WriteLine($"{p.ProductName} {p.UnitPrice}");
 
             #endregion
             #region Question02
@@ -20,6 +20,14 @@ namespace Assignment01LINQ
             //var names = Source.ProductList.Select(p => p.ProductName);
             //foreach (var n in names)
             //    Console.WriteLine(n);
+
+            #endregion
+            #region Question03
+            // Sort all products by UnitPrice (ascending). Print each product's name and price.
+            //var byPrice = Source.ProductList.OrderBy(p => p.UnitPrice);
+            //foreach (var p in byPrice)
+            //    Console.WriteLine($"{p.ProductName} {p.UnitPrice}");
+
 
             #endregion
 
